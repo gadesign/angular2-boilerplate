@@ -4,8 +4,7 @@ import { Component } from 'angular2/core';
     selector:'ng-app',
     template:`
     <div><h1>{{ pageTitle }}</h1></div>
-    `,
-    directives: [ProductListComponent]
+    `
 })
 
 export class AppComponent {
