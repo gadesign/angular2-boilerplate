@@ -3,10 +3,10 @@ import { Component } from 'angular2/core';
 @Component({
     selector:'ng-app',
     template:`
-    <div><h1>{{ pageTitle }}</h1></div>
+    <h1>{{ pageTitle }}</h1>
     `
 })
 
 export class AppComponent {
-    pageTitle: string = 'Good Answer Design';
+    pageTitle: string = 'Angular 2 Boilerplate is Working!';
 }
